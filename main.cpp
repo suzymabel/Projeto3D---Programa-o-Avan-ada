@@ -39,7 +39,7 @@ int main (){
   Mikewazowski.setColor(0,0,0,1.0);
   Mikewazowski.putBox(36,62, 23, 37,71, 75);
   Mikewazowski.putBox(34,36,29,39,73,75);
-  Mikewazowski.putBox(62,64,29,39,73,75);;//ajeitar
+  Mikewazowski.putBox(62,64,29,39,73,75);
   Mikewazowski.cutBox(36,40,23,25,71,75);
   Mikewazowski.cutBox(58,62,23,25,71,75);
 
@@ -54,18 +54,18 @@ int main (){
   Mikewazowski.putBox(40,44,31,33,73,75); //d1 superior
   Mikewazowski.putBox(54,56,29,31,73,75); //d3 superior
   Mikewazowski.putBox(54,58,31,33,73,75); //d3 superior
-  Mikewazowski.putBox(34,38,35,37,73,75);
-  Mikewazowski.putBox(34,36,37,39,73,75);
-  Mikewazowski.putBox(36,38,33,35,73,75);
-  Mikewazowski.putBox(60,64,35,37,73,75);
-  Mikewazowski.putBox(60,62,33,35,73,75);
-  Mikewazowski.putBox(62,64,37,39,73,75);
-  Mikewazowski.putBox(36,40,25,27,73,75);
-  Mikewazowski.putBox(36,38,27,29,73,75);
-  Mikewazowski.putBox(58,62,25,27,73,75);
-  Mikewazowski.putBox(60,62,27,29,73,75);
+  Mikewazowski.putBox(34,38,35,37,73,75); //d4 superior
+  Mikewazowski.putBox(34,36,37,39,73,75); //d4 superior
+  Mikewazowski.putBox(36,38,33,35,73,75); //d4 superior
+  Mikewazowski.putBox(60,64,35,37,73,75); //d5 superior
+  Mikewazowski.putBox(60,62,33,35,73,75); //d5 superior
+  Mikewazowski.putBox(62,64,37,39,73,75); //d5 superior
+  Mikewazowski.putBox(36,40,25,27,73,75); //d4 inferior
+  Mikewazowski.putBox(36,38,27,29,73,75); //d4 inferior
+  Mikewazowski.putBox(58,62,25,27,73,75); //d5 inferior
+  Mikewazowski.putBox(60,62,27,29,73,75); //d5 inferior
 
-  //ajuste boca
+  //10º Ajuste boca
   Mikewazowski.setColor(0.282,0.960,0.259,1.0);
   Mikewazowski.putBox(40,58,21,23,71,75);
   Mikewazowski.putBox(58,62,23,25,71,75);
@@ -77,7 +77,6 @@ int main (){
   
 
  Mikewazowski.writeOFF((char*)"mikewazowski.off"); 
-   // Mikewazowski.writeOFF((char*)"C:\\Users\\franc\\Documents\\Mikewazowski.off");
 
   return 0;
 }
